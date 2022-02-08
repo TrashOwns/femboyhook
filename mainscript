@@ -2105,8 +2105,8 @@ local Window = library:AddWindow("Bunny X", {
     can_resize = true,
 })
 
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/farthefarter/e/main/e"))()
-local ESP = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/TrashOwns/femboyhook/main/localaim"))()
+local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/TrashOwns/femboyhook/main/karotesp"))()
 ESP:Toggle(false)
 ESP.Tracers = false
 ESP.Names = false
@@ -2305,7 +2305,7 @@ CreditTAB:AddButton("TwiZzy is best scripter", function(bool)
 end)
 
 RCTab:AddButton("Speed Kaias (LeftShift)", function(bool)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MainNeg/Sources/main/Speed"))()
+    loadstring(game:HttpGet(""))()
 end)
 
 RCTab:AddLabel("Enable/Disable with T// n, m to change Speed")
