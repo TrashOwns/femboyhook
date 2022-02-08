@@ -1,8 +1,8 @@
 if getgenv().Aiming then return getgenv().Aiming end
 
 -- // Dependencies
-local SignalManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Signal/main/Manager.lua"))()
-local BeizerManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/Aiming/BeizerManager.lua"))()
+local SignalManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/TrashOwns/femboyhook/main/signalmanager"))()
+local BeizerManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/TrashOwns/femboyhook/main/BeizerManger"))()
 
 -- // Services
 local Players = game:GetService("Players")
